@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:showIn="navigation_view">
+
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/nav_environment"
+            android:icon="@drawable/ic_menu_music"
+            android:title="Окружение" />
+        <item
+            android:id="@+id/nav_box"
+            android:icon="@drawable/ic_menu_music"
+            android:title="Сундук" />
+        <item
+            android:id="@+id/nav_floor"
+            android:icon="@drawable/ic_menu_music"
+            android:title="Пол" />
+        <item
+            android:id="@+id/nav_door"
+            android:icon="@drawable/ic_menu_music"
+            android:title="Дверь" />
+        <item
+            android:id="@+id/nav_surprise"
+            android:icon="@drawable/ic_menu_music"
+            android:title="Неожиданность" />
+    </group>
+</menu>

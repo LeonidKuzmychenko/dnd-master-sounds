@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/mobile_navigation"
+    app:startDestination="@+id/nav_environment">
+
+    <fragment
+        android:id="@+id/nav_environment"
+        android:name="com.example.dnd_master_app.ui.environment.EnvironmentFragment"
+        android:label="Окружение"
+        tools:layout="@layout/fragment_environment" />
+    <fragment
+        android:id="@+id/nav_box"
+        android:name="com.example.dnd_master_app.ui.box.BoxFragment"
+        android:label="Сундук"
+        tools:layout="@layout/fragment_environment" />
+    <fragment
+        android:id="@+id/nav_floor"
+        android:name="com.example.dnd_master_app.ui.floor.FloorFragment"
+        android:label="Пол"
+        tools:layout="@layout/fragment_environment" />
+    <fragment
+        android:id="@+id/nav_door"
+        android:name="com.example.dnd_master_app.ui.door.DoorFragment"
+        android:label="Дверь"
+        tools:layout="@layout/fragment_environment" />
+    <fragment
+        android:id="@+id/nav_surprise"
+        android:name="com.example.dnd_master_app.ui.surprise.SurpriseFragment"
+        android:label="Неожиданность"
+        tools:layout="@layout/fragment_environment" />
+</navigation>
